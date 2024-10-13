@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="portefølje3.css">
+</head>
+<body>
+<header>
+    <h1>Guess My Number!</h1>
+    <p class="between">(Between 1 and 20)</p>
+    <button class="again">Again!</button>
+    <button id="Light-mode" class="Light-mode">Switch to Light Mode</button>
+    <div class="number">?</div>
+</header>
+<main>
+    <section class="left">
+        <input type="number" class="guess">
+        <button class="check">Check!</button>
+    </section>
+    <section class="right">
+        <p class="message">Start guessing...</p>
+        <p class="label-score">💯 Score: <span class="score">20</span></p>
+        <p class="label-highscore">🥇 Highscore: <span class="highscore">0</span></p>
+        <p class="label-guessed-numbers">Guessed Numbers: <span class="guessed-numbers"></span></p>
+    </section>
+</main>
+<script src="portefølje3.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+</body>
+</html>
